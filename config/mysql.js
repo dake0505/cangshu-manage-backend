@@ -4,8 +4,8 @@ module.exports = {
     // 数据库配置
     config: {
         host: 'localhost',
-        user: 'root',
-        password: 'jiangqi123!@#',
+        user: 'cangshu',
+        password: '123456',
         database: 'mysql',
         port: 3306
     },
