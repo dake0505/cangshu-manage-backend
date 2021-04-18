@@ -1,8 +1,8 @@
 var mysqlConfig = require('../config/mysql')
 
 // 获取商品列表
-getCommodityList = (req, res) => {
-    var sql = 'SELECT * FROM commodity_info'
+getgoodList = (req, res) => {
+    var sql = 'SELECT * FROM good_info'
     var sqlArr = []
     var callback = (err, data) => {
         if (err) {
@@ -18,5 +18,5 @@ getCommodityList = (req, res) => {
 }
 
 module.exports = {
-    getCommodityList
+    getgoodList
 }
