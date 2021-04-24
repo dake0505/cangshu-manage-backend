@@ -7,7 +7,8 @@ module.exports = {
         user: 'cangshu',
         password: '123456',
         database: 'mysql',
-        port: 3306
+        port: 3306,
+        multipleStatements: true
     },
     // 连接数据库，采用连接池
     // 连接池对象
